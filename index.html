@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toyota</title>
+    <link rel="stylesheet" href="/assest/style.css">
+    <link rel="icon" type="image/x-icon" href="/assest/img/logo-toyota.jpg">
+</head>
+<body>
+    <div id="main">
+        <div class="header-container">
+            <div class="nav-container">
+                <a href="index.html" class="logo"><img src="/assest/img/logo-toyota.jpg" alt=""></a>
+                <div class="nav">
+                    <ul class="nav-info">
+                        <li class="nav-showroom-container">
+                            <a id="nav-showroom-click" href="#" class="nav-info-item">VR Showroom<i class="ml4 special-icon fa-solid fa-angle-down"></i></a>
+                            <div class="nav-showroom">
+                                <a href="https://www.toyota.com.vn/vr-suv" class="nav-showroom-item">SUV - MPV</a>
+                                <a href="https://www.toyota.com.vn/vr-sedan" class="nav-showroom-item">Sedan - Bán tải</a>
+                            </div>
+                        </li>
+                        
+                        <li><a href="https://global.toyota/en/" class="nav-info-item"><i class="fa-solid fa-globe red-global mr4"></i>Toyota toàn cầu </a></li>
+                        <li><a href="https://www.toyota.com.vn/danh-sach-dai-ly" class="nav-info-item">Tìm đại lý </a></li>
+                        <li><a onclick="searchClick()" href="#" class="nav-info-item"><i class="special-icon fa-solid fa-magnifying-glass"></i></a></li>
+                        <li><a href="https://www.facebook.com/ToyotaVietnam/?utm_source=SOCIAL&utm_medium=FANPAGE&utm_content=FBICON_PRODUCT_WEBSITE_4NOV2016&utm_campaign=FANPAGE" class="nav-info-item"><i class="fa-brands fa-facebook blue-fb"></i></a></li>
+                        <li><a href="https://www.youtube.com/user/ToyotaMotorVietnam" class="nav-info-item"><i class="fa-brands fa-youtube red-yt"></i></a></li>
+                    </ul>
+                    <div class="nav-content">
+                        <div id="nav-content-sp-click" class="nav-content-item">Sản phẩm<i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <div class="nav-content-sp">
+                            <div class="car-name-slide">
+                                <div id="Sedan-slide" class="car-name-item-slide name-click">Sedan</div>
+                                <div id="Hatchback-slide" class="car-name-item-slide">Hatchback</div>
+                                <div id="SUV-slide" class="car-name-item-slide">SUV</div>
+                                <div id="DaDung-slide" class="car-name-item-slide">Đa dụng</div>
+                                <div id="BanTai-slide" class="car-name-item-slide">Bán tải</div>
+                            </div>
+                            <div class="car-content-slide">
+                                <div class="car">
+                                    <div class="car-des">
+                                        <p>Động cơ: 1.5</p>
+                                        <p>Dung tích: 1.496cc</p>
+                                    </div>
+                                    <div class="car-img-container" style="background-image: url('https://www.toyota.com.vn//Resources/Images/BCF393FA9AFEC309E1F2A98CF5A57CEB.png');">
+                                        
+                                    </div>
+                                    <div class="car-title">
+                                        Vios
+                                    </div>
+                                    <div class="car-price">
+                                        479.000.000<sup class="grey">VNĐ</sup>
+                                    </div>
+                                    <div class="car-info">
+                                        <p>5 Chỗ</p>
+                                        <p>Số tay 5 cấp</p>
+                                    </div>
+                                </div>
+                                <div class="car">
+                                    <div class="car-des">
+                                        <p>Động cơ: 1.8</p>
+                                        <p>Dung tích: 1.798cc</p>
+                                    </div>
+                                    <div class="car-img-container" style="background-image: url('https://www.toyota.com.vn//Resources/Images/0B0BE4DDC80614697A93E04ED496B3E2.jpg');">
+                                        
+                                    </div>
+                                    <div class="car-title">
+                                        Corolla Altis
+                                    </div>
+                                    <div class="car-price">
+                                        725.000.000<sup class="grey">VNĐ</sup>
+                                    </div>
+                                    <div class="car-info">
+                                        <p>5 Chỗ</p>
+                                        <p>CVT</p>
+                                    </div>
+                                </div>
+                                <div class="car">
+                                    <div class="car-des">
+                                        <p>Động cơ: 2.0</p>
+                                        <p>Dung tích: 1.987cc</p>
+                                    </div>
+                                    <div class="car-img-container" style="background-image: url('https://www.toyota.com.vn//Resources/Images/448F5CB4E8D6742CF606DA3C605145FA.png');">
+                                        
+                                    </div>
+                                    <div class="car-title">
+                                        Camry
+                                    </div>
+                                    <div class="car-price">
+                                        1.105.000.000<sup class="grey">VNĐ</sup>
+                                    </div>
+                                    <div class="car-info">
+                                        <p>5 Chỗ</p>
+                                        <p>Số tự động vô cấp CVT</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="nav-content-cn-click" class="nav-content-item">Công nghệ <i class="fa-solid fa-angle-down"></i></div>
+                        <div class="nav-content-cn">
+                            <a href="#" class="nav-content-cn-item">
+                                <img src="https://www.toyota.com.vn/media/0pmb0ln3/hybrid_menu.jpg" alt="">
+                                <h1 class="nav-content-cn-title">HYBRID</h1>
+                            </a>
+                            <a href="#" class="nav-content-cn-item">
+                                <img src="https://www.toyota.com.vn/media/tn2lb3kp/tss.png" alt="">
+                                <h1 class="nav-content-cn-title">TSS</h1>
+                            </a>
+                            <a href="#" class="nav-content-cn-item">
+                                <img src="https://www.toyota.com.vn/media/cpkn03cs/tnga.png" alt="">
+                                <h1 class="nav-content-cn-title">TNGA</h1>
+                            </a>
+                        </div>
+                        <div id="nav-content-dv-click" class="nav-content-item">Dịch vụ<i class="fa-solid fa-angle-down"></i></div>
+                        <div class="nav-content-dv">
+                            <div class="nav-content-dv-item-content-container">
+                                <div class="nav-content-dv-item-content">
+                                    <p class="nav-dv-task">DỊCH VỤ BẢO DƯỠNG</p>
+                                    <p class="nav-dv-task">Bảo dưỡng định kỳ</p>
+                                    <p class="nav-dv-task">Dịch vụ sửa chữa</p>
+                                    <p class="nav-dv-task">Dịch vụ chăm sóc làm đẹp xe</p>
+                                    <p class="nav-dv-task">Chính sách bảo hành</p>
+                                    <p class="nav-dv-task">Kiểm tra & Triệu hồi</p>
+                                </div>
+                                <div class="nav-content-dv-item-content">
+                                    <p class="nav-dv-task">DỊCH VỤ BÁN HÀNG</p>
+                                    <p class="nav-dv-task">Dịch vụ Tài chính Toyota</p>
+                                    <p class="nav-dv-task">Bảo hiểm Toyota</p>
+                                    <p class="nav-dv-task">Xe đã qua sử dụng</p>
+                                    <p class="nav-dv-task">Gia hạn bảo hành</p>
+                                </div>
+                                <div class="nav-content-dv-item-content">
+                                    <p class="nav-dv-task">SẢN PHẨM CHÍNH HÃNG</p>
+                                    <p class="nav-dv-task">Phụ kiện chính hãng</p>
+                                </div>
+                            </div>
+                            <div class="nav-content-dv-item-img-container">
+                                <img src="https://www.toyota.com.vn/media/m5biyaej/toyota-touch.jpg" alt="">
+                            </div>
+                        </div>
+                        <div id="nav-content-tt-click" class="nav-content-item">Tin tức & Khuyến mãi<i class="fa-solid fa-angle-down"></i></div>
+                        <div class="nav-content-tt">
+                            <a href="#" class="nav-content-tt-item">
+                                <img src="https://www.toyota.com.vn/media/qmvnh40m/s%E1%BA%A3n-ph%E1%BA%A9m.png" alt="">
+                                <h1 class="nav-content-tt-title">SẢN PHẨM</h1>
+                            </a>
+                            <a href="#" class="nav-content-tt-item">
+                                <img src="https://www.toyota.com.vn/media/4ndfgl2u/khuyen-mai.jpg" alt="">
+                                <h1 class="nav-content-tt-title">KHUYẾN MÃI</h1>
+                            </a>
+                            <a href="#" class="nav-content-tt-item">
+                                <img src="https://www.toyota.com.vn/media/3pcd0ryk/header6.png" alt="">
+                                <h1 class="nav-content-tt-title">XÃ HỘI</h1>
+                            </a>
+                            <a href="#" class="nav-content-tt-item">
+                                <img src="https://www.toyota.com.vn/media/cvqdehl4/th%C3%B4ng-tin-kh%C3%A1c.png" alt="">
+                                <h1 class="nav-content-tt-title">THÔNG TIN KHÁC</h1>
+                            </a>
+                        </div>
+                        <div id="nav-content-dh-click" class="nav-content-item">Điện hóa<i class="fa-solid fa-angle-down"></i></div>
+                        <div class="nav-content-dh">
+                            <a href="#" class="nav-content-dh-item">
+                                <img src="https://www.toyota.com.vn/media/tjjbyh0e/toyota-nav-electrification.jpg" alt="">
+                                <h1 class="nav-content-dh-title">ĐIỆN HÓA Ô TÔ</h1>
+                            </a>
+                            <a href="#" class="nav-content-dh-item">
+                                <img src="https://www.toyota.com.vn/media/pe0lle2g/toyota-nav-hybrid-electric.png" alt="">
+                                <h1 class="nav-content-dh-title">CÔNG NGHỆ HYBRID</h1>
+                            </a>
+                            <a href="#" class="nav-content-dh-item">
+                                <img src="https://www.toyota.com.vn/media/fh0d21h0/toyota-nav-battery-electric.png" alt="">
+                                <h1 class="nav-content-dh-title">CÔNG NGHỆ THUẦN ĐIỆN</h1>
+                            </a>
+                        </div>
+                        <div id="nav-content-vtyt-click" class="nav-content-item">Về Toyota Việt Nam<i class="fa-solid fa-angle-down"></i></div>
+                        <div class="nav-content-vtyt">
+                            <a href="#" class="nav-content-vtyt-item">
+                                <img src="https://www.toyota.com.vn/media/l1letfrv/about-banner-1.png" alt="">
+                                <h1 class="nav-content-vtyt-title">TUYỂN DỤNG</h1>
+                            </a>
+                            <a href="#" class="nav-content-vtyt-item">
+                                <img src="https://www.toyota.com.vn/media/o03pxyuq/ve-toyota-header.jpg" alt="">
+                                <h1 class="nav-content-vtyt-title">GIỚI THIỆU CÔNG TY</h1>
+                            </a>
+                            <a href="#" class="nav-content-vtyt-item">
+                                <img src="https://www.toyota.com.vn/media/1fklg2cg/about-banner-3.png" alt="">
+                                <h1 class="nav-content-vtyt-title">CỘNG ĐỒNG</h1>
+                            </a>
+                            <a href="#" class="nav-content-vtyt-item">
+                                <img src="https://www.toyota.com.vn/media/b2ocljrs/about-banner-4.png" alt="">
+                                <h1 class="nav-content-vtyt-title">NỘI ĐỊA HÓA</h1>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="slide-container">
+            <div class="slide-content">
+                <div class="slide" id="slide-4">
+                    <div class="image-wrapper">
+                        <img src="https://www.toyota.com.vn/media/tt0fey2e/1600x680.jpg" alt="">
+                    </div>
+                </div>
+                <div class="slide" id="slide-1">
+                    <div class="slide-buy-container">
+                        <a class="slide-buy" href="#">MUA XE</a>
+                        <a class="slide-buy" href="#">KHÁM PHÁ NGAY</a>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="https://www.toyota.com.vn/media/lencngdt/1600x-680px-home-banner-desktop-1.png" alt="">
+                    </div>
+                </div>
+                <div class="slide" id="slide-2">
+                    <div class="slide-buy-container">
+                        <a class="slide-buy" href="#">MUA XE</a>
+                        <a class="slide-buy" href="#">KHÁM PHÁ NGAY</a>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="https://www.toyota.com.vn/media/wlejikk0/1600x680-1.png" alt="">
+                    </div>
+                </div>
+                <div class="slide"  id="slide-3">
+                    <div class="slide-buy-container">
+                        <a class="slide-buy" href="#">MUA XE</a>
+                        <a class="slide-buy" href="#">KHÁM PHÁ NGAY</a>
+                    </div>
+                    <div class="image-wrapper">
+                        <img src="https://www.toyota.com.vn/media/ibshqmm1/1600x680-with-soobin.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <button id="slide-prev-btn" class="slide-btn"><i class="fa-solid fa-angle-left"></i></button>
+            <button id="slide-next-btn" class="slide-btn"><i class="fa-solid fa-angle-right"></i></button>
+            <div class="slide-page">
+                <div id="slide-page-1" class="slide-page-item red"></div>
+                <div id="slide-page-2" class="slide-page-item"></div>
+                <div id="slide-page-3" class="slide-page-item"></div>
+                <div id="slide-page-4" class="slide-page-item"></div>
+            </div>
+        </div>
+        <div class="car-container">
+            <h1 class="car-header">KHÁM PHÁ CÁC DÒNG XE TOYOTA</h1>
+            <div class="car-name">
+                <div id="Sedan" class="car-name-item name-click">Sedan</div>
+                <div id="Hatchback" class="car-name-item">Hatchback</div>
+                <div id="SUV" class="car-name-item">SUV</div>
+                <div id="DaDung" class="car-name-item">Đa dụng</div>
+                <div id="BanTai" class="car-name-item">Bán tải</div>
+            </div>
+            <div class="car-content">
+                <div class="car">
+                    <div class="car-des">
+                        <p>Động cơ: 1.5</p>
+                        <p>Dung tích: 1.496cc</p>
+                    </div>
+                    <div class="car-img-container" style="background-image: url('https://www.toyota.com.vn//Resources/Images/BCF393FA9AFEC309E1F2A98CF5A57CEB.png');">
+                        
+                    </div>
+                    <div class="car-title">
+                        Vios
+                    </div>
+                    <div class="car-price">
+                        479.000.000<sup class="grey">VNĐ</sup>
+                    </div>
+                    <div class="car-info">
+                        <p>5 Chỗ</p>
+                        <p>Số tay 5 cấp</p>
+                    </div>
+                </div>
+                <div class="car">
+                    <div class="car-des">
+                        <p>Động cơ: 1.8</p>
+                        <p>Dung tích: 1.798cc</p>
+                    </div>
+                    <div class="car-img-container" style="background-image: url('https://www.toyota.com.vn//Resources/Images/0B0BE4DDC80614697A93E04ED496B3E2.jpg');">
+                        
+                    </div>
+                    <div class="car-title">
+                        Corolla Altis
+                    </div>
+                    <div class="car-price">
+                        725.000.000<sup class="grey">VNĐ</sup>
+                    </div>
+                    <div class="car-info">
+                        <p>5 Chỗ</p>
+                        <p>CVT</p>
+                    </div>
+                </div>
+                <div class="car">
+                    <div class="car-des">
+                        <p>Động cơ: 2.0</p>
+                        <p>Dung tích: 1.987cc</p>
+                    </div>
+                    <div class="car-img-container" style="background-image: url('https://www.toyota.com.vn//Resources/Images/448F5CB4E8D6742CF606DA3C605145FA.png');">
+                        
+                    </div>
+                    <div class="car-title">
+                        Camry
+                    </div>
+                    <div class="car-price">
+                        1.105.000.000<sup class="grey">VNĐ</sup>
+                    </div>
+                    <div class="car-info">
+                        <p>5 Chỗ</p>
+                        <p>Số tự động vô cấp CVT</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="seemore-container">
+            <div class="seemore-content">
+                <a href="https://www.toyota.com.vn/tin-tuc/khuyen-mai" class="seemore-item">
+                    <div class="seemore-icon-container">
+                        <i class="fa-solid fa-receipt"></i>
+                    </div>
+                    <p>Khuyến mãi</p>
+                </a>
+                <a href="https://www.toyota.com.vn/media/adgdegak/b%E1%BA%A3ng-gi%C3%A1-jan-2024-1.pdf" class="seemore-item">
+                    <div class="seemore-icon-container">
+                        <i class="fa-solid fa-money-check-dollar"></i>
+                    </div>
+                    <p>Bảng giá</p>
+                </a>
+                <a href="#" class="seemore-item">
+                    <div class="seemore-icon-container">
+                        <i class="fa-solid fa-car-rear"></i>
+                    </div>
+                    <p>Đăng ký lái thử</p>
+                </a>
+            </div>
+        </div>
+        <div class="service-container">
+            <h1 class="service-header">DỊCH VỤ</h1>
+            <div class="service-name">
+                <div id="dvsbh" class="service-name-item name-click">DỊCH VỤ SAU BÁN HÀNG</div>
+                <div id="dvgt" class="service-name-item">DỊCH VỤ GIA TĂNG</div>
+                <div id="spch" class="service-name-item">SẢN PHẨM CHÍNH HÃNG</div>
+            </div>
+            <div class="service-content">
+                <div class="service">
+                    <div class="service-img-container" style="background-image: url('https://www.toyota.com.vn//Resources/Images/F1E4F720C673632E422E9DCF14BB94BA.jpg');">
+                     
+                    </div>
+                    <div class="service-title">
+                        Bảo dưỡng định kỳ
+                    </div>
+                   <p>Trong quá trình vận hành, nhiều chi tiết trên xe bị mài mòn hoặc hư hỏng theo thời gian sử dụng. Điều này xảy ra với bất kỳ cơ cấu máy móc...</p>
+                   <div class="service-seemore">XEM THÊM <i class="fa-solid fa-angle-right"></i></div>
+                </div>
+                <div class="service">
+                    <div class="service-img-container" style="background-image: url('https://www.toyota.com.vn//Resources/Images/69923668F01418A77976B0F361179B36.jpg');">
+                     
+                    </div>
+                    <div class="service-title">
+                       Dịch vụ sửa chữa
+                    </div>
+                   <p>Toyota cũng cung cấp dịch vụ sửa chữa đối với những hư hỏng do va chạm mà chiếc xe của bạn gặp phải trong quá trình sử dụng với kỹ thuật...</p>
+                   <div class="service-seemore">XEM THÊM <i class="fa-solid fa-angle-right"></i></div>
+                </div>
+                <div class="service">
+                    <div class="service-img-container" style="background-image: url('https://www.toyota.com.vn//Resources/Images/4BDD8473EEDB37C3F7E3BC2BD967433B.jpg');">
+                     
+                    </div>
+                    <div class="service-title">
+                        Dịch vụ chăm sóc làm đẹp xe
+                    </div>
+                   <p>Chăm sóc và làm đẹp tập trung vào thẩm mỹ, làm đẹp nội ngoại thất xe, mang lại các trải nghiệm cao cấp và sang trọng cho người dùng....</p>
+                   <div class="service-seemore">XEM THÊM <i class="fa-solid fa-angle-right"></i></div>
+                </div>
+            </div>
+        </div>
+        <div class="technology-container">
+            <h1 class="technology-header">CÔNG NGHỆ</h1>
+            <div class="technology-name">
+                <div class="technology-name-item name-click">HYBRID</div>
+                <div class="technology-name-item">TSS</div>
+                <div class="technology-name-item">TNGA</div>
+            </div>
+            <div class="technology-content">
+                <label for="check-video1" class="technology-content-item">
+                    <img class="technology-content-img" src="https://img.youtube.com/vi/uhAF8W6jml0/0.jpg" alt="">
+                    <span class="technology-play"><i class="fa-solid fa-play"></i></span>
+                </label>
+                <input id="check-video1" type="checkbox" style="display: none;">
+                <label for="check-video1" class="background-video1"  >
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/uhAF8W6jml0" frameborder="0" allowfullscreen></iframe>
+                </label>
+
+                <div class="technology-double-group">
+                    <label class="technology-img-group-container" for="check-video2">
+                        <img class="technology-img-group" src="https://img.youtube.com/vi/e-LbRfjz2Nc/0.jpg" alt="">
+                    </label>
+                    <input id="check-video2" type="checkbox" style="display: none;">
+                    <label for="check-video2" class="background-video2"  >
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/e-LbRfjz2Nc" frameborder="0" allowfullscreen></iframe>
+                    </label>
+
+
+                    <span class="techno-play"><i class="fa-solid fa-play"></i></span>
+                    <label class="technology-img-group-container" for="check-img2">
+                        <img class="technology-img-group" src="https://www.toyota.com.vn//Resources/Images/F9900FBCC67DC66AC7ABBB5ED6968E6C.jpg" alt="">
+                    </label>
+                    <input id="check-img2" type="checkbox" style="display: none;">
+                    <label for="check-img2" class="background-img2"  >
+                        <img src="https://www.toyota.com.vn//Resources/Images/F9900FBCC67DC66AC7ABBB5ED6968E6C.jpg" alt="">
+                    </label>
+                </div>
+
+                <label for="check-img1" class="technology-content-item">
+                    <img class="technology-content-img" src="https://www.toyota.com.vn//Resources/Images/55379389F2F14403849CDA5F524C4397.jpg" alt="">
+                </label>
+                <input id="check-img1" type="checkbox" style="display: none;">
+                <label for="check-img1" class="background-img1"  >
+                    <img src="https://www.toyota.com.vn//Resources/Images/55379389F2F14403849CDA5F524C4397.jpg" alt="">
+                </label>
+            </div>
+            <a href="#" class="technology-seemore">
+                XEM THÊM
+            </a>
+        </div>
+        <div class="news-container">
+            <h1 class="news-header">TIN TỨC & KHUYẾN MÃI</h1>
+            <div class="news-name">
+                <div class="news-name-item name-click">SẢN PHẨM</div>
+                <div class="news-name-item">KHUYẾN MÃI</div>
+                <div class="news-name-item">XÃ HỘI</div>
+                <div class="news-name-item">THÔNG TIN KHÁC</div>
+                <div class="news-name-item">THÔNG TIN BỔ TRỢ</div>
+            </div>
+            <div class="news-content">
+                <div class="news-content-item">
+                    <img class="news-img" src="https://www.toyota.com.vn/media/5t3kpcey/e38a48278e28b02492ac3c1c11ad95f8.jpg" alt="">
+                    <p class="news-title">Thông báo của Toyota Việt Nam về bất thường trong chứng nhận động cơ xe</p>
+                </div>
+                <div class="news-double-group">
+                    <div class="news-double-group-item">
+                        <img class="news-img" src="https://www.toyota.com.vn/media/5t3kpcey/e38a48278e28b02492ac3c1c11ad95f8.jpg" alt="">
+                        <p class="news-title">Nối lại việc giao xe Avanza Premio phiên bản số sàn</p>
+                    </div>
+                    <div class="news-double-group-item">
+                        <img class="news-img" src="https://www.toyota.com.vn/media/20pfi5tm/793164e15023d2deafe97fa0312e57c6.png" alt="">
+                        <p class="news-title">Toyota Việt Nam thông báo thực hiện Chương trình triệu hồi và Chương trình làm hài lòng khách hàng</p>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="news-seemore">
+                XEM THÊM
+            </a>
+        </div>
+        <div class="contact-container">
+            <h1 class="contact-title">
+                TRAO ĐỔI VỚI CHÚNG TÔI
+            </h1>
+            <div class="contact-info">
+                <div class="contact-message">
+                    Thông tin quý khách cần biết *
+                </div>
+                <select class="contact-input-style">
+                    <option value="value0">Chọn</option>
+                    <option value="value1">Bán hàng</option>
+                    <option value="value2">Dịch vụ</option>
+                    <option value="value3">Đại lý</option>
+                    <option value="value4">Tư vấn tài chính</option>
+                    <option value="value5">Góp ý website</option>
+                </select>
+            </div>
+            <div class="contact-info">
+                <div class="contact-message">
+                    Họ và tên *
+                </div>
+                <input class="contact-input-style" type="text" placeholder="Nguyễn Văn A">
+            </div>
+            <div class="contact-double">
+                <div class="contact-info contact-double-item">
+                    <div class="contact-message">
+                        Số điện thoại *
+                    </div>
+                    <input class="contact-input-style" type="tel" placeholder="092387100">
+                </div>
+                <div class="contact-info contact-double-item">
+                    <div class="contact-message">
+                        Email *
+                    </div>
+                    <input class="contact-input-style" type="email" placeholder="anv@uit.edu.vn">
+                </div>
+            </div>
+            
+            <input class="contact-input" type="text" placeholder="Điền yêu cầu / thắc mắc">
+            
+            <div class="contact-check">
+                <input type="checkbox" name="" id="">
+                <p>Tôi xác nhận rằng các đại lý Toyota có thể gửi cho tôi thêm thông tin về các sản phẩm hoặc dịch vụ của Toyota.</p> 
+            </div>
+            <div class="contact-check">
+                <input type="checkbox" name="" id="">
+                <p>Tôi đã đọc và đồng ý với các <a href="#" class="blue-fb"> quy định và chính sách </a>quy định và chính sách của Toyota Việt Nam.</p> 
+            </div>
+            <button class="contact-send">
+                Gửi
+            </button>
+
+        </div>
+        <div class="footer-container">
+            <div class="footer1">
+                <div class="footer1-items">
+                    <p class="footer1-item">SẢN PHẨM</p>
+                    <a href="#" class="footer1-item">Hatchback</a>
+                    <a href="#" class="footer1-item">Sedan</a>
+                    <a href="#" class="footer1-item">SUV</a>
+                    <a href="#" class="footer1-item">Đa dụng</a>
+                    <a href="#" class="footer1-item">Thương mại</a>
+                    <a href="#" class="footer1-item">Bán tải</a>
+                    <a href="#" class="footer1-item">Khách hàng dự án</a>
+                </div>
+                <div class="footer1-items">
+                    <p class="footer1-item">CÔNG NGHỆ</p>
+                    <a href="#" class="footer1-item">Hybrid</a>
+                    <a href="#" class="footer1-item">TSS</a>
+                    <a href="#" class="footer1-item">TNGA</a>
+                </div>
+                <div class="footer1-items">
+                    <p class="footer1-item">DỊCH VỤ</p>
+                    <a href="#" class="footer1-item">Dịch vụ bảo dưỡng</a>
+                    <a href="#" class="footer1-item">Dịch vụ sau bán hàng</a>
+                    <a href="#" class="footer1-item">Sản phẩm chính hãng</a>
+                    <a href="#" class="footer1-item">Cơ sở bảo hành bảo dưỡng</a>
+                </div>
+                <div class="footer1-items">
+                    <p class="footer1-item">TIN TỨC & KHUYẾN MÃI</p>
+                    <a href="#" class="footer1-item">Sản phẩm</a>
+                    <a href="#" class="footer1-item">Khuyến mãi</a>
+                    <a href="#" class="footer1-item">Xã hội</a>
+                    <a href="#" class="footer1-item">Thông tin bổ trợ</a>
+                    <a href="#" class="footer1-item">Thông tin khác</a>
+                </div>
+                <div class="footer1-items">
+                    <p class="footer1-item">VỀ TOYOTA VIỆT NAM</p>
+                    <a href="#" class="footer1-item">Giới thiệu công ty</a>
+                    <a href="#" class="footer1-item">Tuyển dụng</a>
+                    <a href="#" class="footer1-item">Cộng đồng</a>
+                    <a href="#" class="footer1-item">Nội địa hóa</a>
+                    <a href="#" class="footer1-item">Tạp chí Toyota</a>
+                </div>
+            </div>
+            
+            <div class="footer2">
+                <div class="footer2-top">
+                    <div class="footer2-top-item">
+                        <p class="footer2-message">CÔNG TY Ô TÔ TOYOTA VIỆT NAM</p>
+                        <p class="footer2-message">Số GCNĐKDN: 2500150335</p>
+                        <p class="footer2-message">Cấp lần đầu: Ngày 26/03/2007</p>
+                        <p class="footer2-message">Đăng ký thay đổi lần thứ 19: Ngày 02/02/2023</p>
+                        <p class="footer2-message">Cơ quan cấp: Sở kế hoạch và đầu tư tỉnh Vĩnh Phúc</p>
+                        <p class="footer2-message">Địa chỉ: Phường Phúc Thắng, Thành phố Phúc Yên, Tỉnh Vĩnh Phúc, Việt Nam</p>
+                    </div>
+                    <div class="footer2-top-item">
+                        <p class="footer2-message">ĐƯỜNG DÂY NÓNG</p>
+                        <p class="footer2-message"><i class="fa-solid fa-phone"></i>1800 1524</p>
+                        <p class="footer2-message"><i class="fa-solid fa-phone"></i>0916 001 524</p>
+                        <p class="footer2-message"><i class="fa-regular fa-envelope"></i>Email</p>
+                        <p class="footer2-message">Hotline Hỗ trợ tài chính: (84-28) 7309 0998</p>
+                        <p class="footer2-message">Hotline Bảo hiểm Toyota: 1900 633 384</p>
+                        <img class="footer2-img" src="/assest/img/da-thong-bao-bo-cong-thuong.png" alt="">
+                    </div>
+                    <div class="footer2-top-item">
+                        <p class="footer2-message">ĐĂNG KÝ NHẬN BẢN TIN</p>
+                        <p class="footer2-message">Đừng bỏ lỡ những tin tức khuyến mãi của chúng tôi</p>
+                        <div class="footer2-register">
+                            <input type="email" placeholder="Email">
+                            <button><i class="fa-solid fa-right-long"></i></button>
+                        </div>
+                        <div class="footer2-media">
+                            <a href="https://www.facebook.com/ToyotaVietnam/?utm_source=SOCIAL&utm_medium=FANPAGE&utm_content=FBICON_PRODUCT_WEBSITE_4NOV2016&utm_campaign=FANPAGE" class="footer2-media-item"><i class="fa-brands fa-facebook blue-fb"></i></a>
+                            <a href="https://www.youtube.com/user/ToyotaMotorVietnam" class="footer2-media-item"><i class="fa-brands fa-youtube red-yt"></i></a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="footer2-bottom">
+                    <div class="footer2-bottom-links">
+                        <a href="#" class="footer2-link">Sơ đồ trang</a>
+                        <div class="footer2-link">|</div>
+                        <a href="#" class="footer2-link">Chính sách và điều khoản</a>
+                        <div href="#" class="footer2-link">|</div>
+                        <a href="#" class="footer2-link">Chính sách bảo mật thông tin cá nhân</a>
+                    </div>
+                    <div class="footer2-bottom-copyright">
+                        <i class="fa-regular fa-copyright"></i>
+                        Bản quyền thuộc về Công ty ô tô Toyota Việt Nam. Phú Trần copy.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/script.js"></script>
+</html>
